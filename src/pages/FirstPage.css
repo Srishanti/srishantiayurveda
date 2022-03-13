@@ -1,0 +1,64 @@
+.email-box {
+    background-color: rgba(35,32,99,1);
+    color: rgb(184, 223, 203)
+}
+
+.email-block>h5 {
+    padding-top: 0.2em;
+    color: rgb(245, 245, 245);
+}
+
+.top-image{
+    /* padding-top: 0.8em; */
+    padding-bottom: 0.8em;
+    /* background-color: #a2938f7e; */
+}
+
+.headerImage {
+    display: none;
+}
+
+.email-block {
+    background: linear-gradient(90deg, rgba(97,71,5,1) 0%, rgba(194,133,133,1) 100%, rgba(204,191,148,1) 100%);
+    margin-bottom: 1em;
+}
+
+.top-image {
+    width: 100%;
+}
+
+.bhagwan {
+    display: none;
+}
+@media only screen and (min-width: 600px) {
+    .top-image {
+        padding: 0;
+        height: 30vh;
+        /* width: 100%; */
+        width: 20em;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .headerImage {
+        display: block;
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .pcFirstpage {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.4em;
+    }
+
+
+    
+    .bhagwan {
+        height: 30vh;
+        width: 70%;
+        display: inline-block;
+    }
+
+
+}

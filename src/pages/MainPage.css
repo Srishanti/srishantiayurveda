@@ -1,0 +1,249 @@
+@media only screen and (min-width: 600px) {
+
+    
+    .pcScreenCarousel {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    
+    .footerContent {
+        /* background-color: rgba(255, 255, 255, 0.39); */
+        background: linear-gradient(#cccdcf79, #dbd8d89d, transparent), url(../Assets/headerImage.jpg);
+        background-repeat: no-repeat;
+        /* background-position: 100%; */
+        /* background-repeat: inherit; */
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footerColumn {
+        margin: 1em;
+        width: 25%;
+        background-color: rgba(233, 230, 230, 0.185);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+    
+    .footerColumn>h4 {
+        display: inline-block;
+        margin-bottom: 1em;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-bottom: solid 4px rgb(243, 130, 1);
+    }
+
+    .footerColumn>div>div>p {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .footerLinks {
+        font-size: 20px;
+    }
+    
+    .headerImage {
+    }
+    
+    .aboutUsParagraph {
+        font-family: "customFont";
+        text-align: end;
+        padding-right: 1em;
+        font-size: xx-large;
+    }
+    
+    .email-block {
+        display: none;
+    }
+    
+    .email-box-pcscreen {
+        background-color: rgba(35,32,99,1);
+        color: rgb(184, 223, 203)
+    }
+    
+    .email-block-pcscreen>h5 {
+        padding-top: 0.2em;
+        color: rgb(245, 245, 245);
+    }
+    
+    .email-block-pcscreen {
+        background: linear-gradient(90deg, rgba(97,71,5,1) 0%, rgba(194,133,133,1) 100%, rgba(204,191,148,1) 100%);
+        margin-bottom: 1em;
+    }
+    
+    .aboutus-page-image {
+        height: 600px;
+        width: 35em;
+    }
+    
+    .aboutUs-section {
+        /* padding-top: 1.2em; */
+        /* padding-bottom: 1.2em; */
+        display: none;
+        /* background-color: #a2938f7e; */
+    }
+    
+    .items-grid {
+        padding: 2em;
+    }
+    
+    .custom-cards {
+        cursor: pointer;
+        /* width: 200px; */
+        height: 450px;
+        
+        box-shadow: 5px 5px 9px -5px rgba(0,0,0,0.75);
+    }
+    
+    .custom-cards:hover {
+        transform: scale(1.02);
+        transition: 1s;
+        box-shadow: 10px 10px 29px -5px rgba(0,0,0,0.75);
+
+    }
+    .rightIcon, .leftIcon {
+        height: 70px;
+    }
+    
+    .rightIcon {
+        width: 100px;
+    }
+    
+    .navbar {
+        padding: 0;
+    }
+    
+    .nav-links {
+        font-weight: bold;
+        border-bottom: 2px solid #000;
+        margin-right: 1em;
+    }
+    
+    .product-carousel {
+        display: none;
+    }
+    
+    .pcCarousel-product {
+        padding: 2em;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .footer {
+        /* width: 100%;
+        height: 800px; */
+        display: none;
+    }
+    
+    .aboutUs_pc {
+        width: 100%;
+        height: 160vh;
+    }
+    
+    .aboutUsTextSection {
+        background: url(../Assets/About_US.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .ourMissionTextSection {
+        background: url(../Assets/Our_Mission.png); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .ourVisionTextSection {
+        background: url(../Assets/Our_Vision.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+    
+    .ourContact {
+       
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-container {
+        display: none;
+    }
+    
+    .pcCarousel-product {
+        display: none;
+    }
+    
+    .items-grid {
+        display: none;
+    }
+    
+    .email-block-pcscreen {
+        display: none;
+    }
+
+    .aboutus-page-image {
+        height: 600px;
+        width: 100%;
+    }
+
+
+
+    .aboutUs-section {
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        background-color: #a2938f7e;
+      }
+      
+      /* .footer {
+          width: 100%;
+          height: 500px;
+      } */
+
+      .footerContent {
+        /* background-color: rgba(255, 255, 255, 0.39); */
+        background: url(../Assets/footer_image_mobile.jpg);
+        /* background-image: url(/wp-content/themes/opal_main/images/fotter_img.jpg); */
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-size: cover;
+        /* background-size: 100% 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footerColumn {
+        /* margin: 1em; */
+        width: 95%;
+        color: white;
+        margin-bottom: 1em;
+        /* background-color: rgba(233, 230, 230, 0.185); */
+        /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+    }
+    
+    .footerColumn>h4 {
+        display: inline-block;
+        margin-bottom: 1em;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-bottom: solid 4px rgb(243, 130, 1);
+    }
+
+    .footerColumn>div>div>p {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .footerLinks {
+        font-size: 20px;
+        color: white !important;
+    }
+}
+

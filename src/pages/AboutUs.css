@@ -1,0 +1,41 @@
+.aboutUs-section-inside {
+    /* background: rgba(35,32,99,1);
+    padding-left: 1em; */
+    background: rgba(35,32,99,1);
+    padding-Left: 1em;
+}
+.founder-image {
+    width: 8em;
+    height: 8em;
+}
+
+.aboutUs-section-founder {
+    display: flex;
+    align-Items: center;
+    justify-Content: space-around;
+}
+
+.quote {
+    color: #ddd;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px) {
+    .founder-image {
+        width: 5em;
+        height: 7em;
+    }
+    
+    .quote {
+        color: #ddd;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .aboutUs-section-founder {
+        display: flex;
+        align-Items: center;
+        justify-Content: space-around;
+    }
+}
